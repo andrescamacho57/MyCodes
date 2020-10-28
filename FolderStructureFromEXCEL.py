@@ -8,12 +8,12 @@ global BeginingOfProcess
 
 parent_dir = []
 parent_dir = [None] * 20
-parent_dir[0] = r"C:/Users/us5608/OneDrive - NAGases/Desktop/Project 4 _ PSO Review/Drawlists"  # r"C:\Users\Andres Camacho\Desktop\PSO"  
+parent_dir[0] = r"C:/Users/Andres Camacho/Drawlists"  # r"C:\Users\Andres Camacho\Desktop\PSO"  
 Level = 0
 BeginingOfProcess = True
 
 # Give the location of the file
-loc = r"C:/Users/us5608/OneDrive - NAGases/Desktop/Project 4 _ PSO Review/Drawlists/Final DrawList Uncollapsed Revised.xlsx" # r"C:\Users\Andres Camacho\Desktop\Final DrawList Uncollapsed.xlsx"
+loc = r"C:/Users/Andres Camacho/Final DrawList Uncollapsed Revised.xlsx" # r"C:\Users\Andres Camacho\Desktop\Final DrawList Uncollapsed.xlsx"
 print(os.getcwd())
 
 def FindPDF(row,col):
