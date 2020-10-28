@@ -21,41 +21,6 @@ df = pd.read_csv(r"C:\Users\us5608\OneDrive - NAGases\Desktop\Other\Brendan\avoc
 
 df1 = df. loc[df['region'].isin(cities)]
 
-#https://sodocumentation.net/matplotlib/topic/3279/multiple-plots
-#  fig, axes = plt.subplots(3,1) #,figsize=(8, 6), sharey=True)
-
-# axes[0,0].set_title("Average Price vs. Total Volume")
-# axes[0,1].set_title("Average Price vs. Type")
-# axes[1,0].set_title("Average Price vs. Region")
-
-# axes[0,0].plot(df1['Total Volume'], df1.AveragePrice)
-# axes[0,1].plot(df1.type, df1.AveragePrice)
-# axes[1,0].plot(df1['region'], df1.AveragePrice)
-
-# plt.show()
-
-# plt.subplot(3,1,1)
-# a = plt.scatter(df1['Total Volume'], df1.AveragePrice)
-# plt.ylabel('Average Price')
-# plt.xlabel = ('Total Volume')
-
-# plt.subplot(3,1,2)
-# b = plt.bar(df1.type, df1.AveragePrice.mean())
-# plt.ylabel('Average Price')
-# plt.xlabel = ('Type')
-
-# plt.subplot(3,1,3)
-# c = plt.bar(df1.region, df1.AveragePrice)
-# plt.ylabel('Average Price')
-# plt.xlabel = ('Region')
-
-
-
-# plt.show()
-
-# This produces a dataframe of correlations
-# correlation = df.corr()
-# print("Correlation: ", correlation)
 
 # Specify the regression equation.
 
